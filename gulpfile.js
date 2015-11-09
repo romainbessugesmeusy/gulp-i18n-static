@@ -3,8 +3,6 @@ var replace = require('gulp-replace');
 var i18n = require('i18n');
 var browserify = require('browserify');
 var source = require('vinyl-source-stream');
-var transform = require('vinyl-transform');
-var through2 = require('through2');
 var clean = require('gulp-clean');
 
 var locales = ['en', 'fr'];
